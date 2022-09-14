@@ -8,7 +8,8 @@ public class Medic extends Hero {
     public void setHealthmedic(int healthmedic) {
         this.healthmedic = healthmedic;
     }
-    private  int healthmedic;
+
+    private int healthmedic;
 
     public Medic(int hp, int damage, int healthmedic) {
         super(hp, damage, SuperAbility.HEAL);
@@ -19,7 +20,7 @@ public class Medic extends Hero {
     public void applySuperAbility(Boss boss, Hero[] heroes) {
         for (int i = 0; i < heroes.length; i++) {
             if (heroes[i].getHp() > 0 && this != heroes[i]) {
-                heroes[i].setHp(heroes[i].getHp() + this.healthmedic);
+                heroes[i].setHp(heroes[i].getHp() + this.healthmedic  );
                 System.out.println("Medic Health = " + heroes[i].getClass().getSimpleName() + " " + this.healthmedic);
             }
 

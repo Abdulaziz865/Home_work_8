@@ -18,7 +18,7 @@ public class RPG_GAME {
         Tank tank = new Tank(600,3);
         Thor thor = new Thor(300,15);
         Warrior warrior = new Warrior(250, 25);
-        Medic medicDoc = new Medic(20, 10, 15 );
+        Medic medicDoc = new Medic(20, 10, 15);
         Medic assistent = new Medic(250, 20, 5);
         Magic magic = new Magic(220, 20);
         Berserk berserk = new Berserk(210, 20);
