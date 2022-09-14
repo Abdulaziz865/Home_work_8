@@ -1,0 +1,5 @@
+package kg.geekteck.game.general.player;
+
+public enum SuperAbility {
+HEAL,CRITICAL_DAMAGE,BOOST,SAVE_DAMAGE_AND_REVERT,STUNNED,TANK,RIBIRTH,INVISIBLE,ASSIST,HACK,FALSE,BIG_SMALL
+}
